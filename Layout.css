@@ -1,0 +1,41 @@
+.header {
+    width: 900px;
+    height: 250px;
+    background-color: darkcyan;
+
+
+}
+
+.menu {
+    width: 900px;
+    height: 50px;
+    background-color: darkslategray;
+}
+
+.header ul li {
+    display: inline;
+    font-weight: bold;
+
+}
+
+.sidebar {
+    width: 300px;
+    height: 500px;
+    background-color: darkturquoise;
+
+}
+
+.konten {
+    width: 600px;
+    height: 500px;
+    background-color: darkslategray;
+    overflow: auto;
+
+}
+
+
+.footer {
+    width: 900px;
+    height: 100px;
+    background-color: steelblue;
+}
