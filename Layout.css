@@ -1,41 +1,75 @@
-.header {
-    width: 900px;
-    height: 250px;
-    background-color: darkcyan;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.header {
+    width: 100%;
+    height: 130px;
+    background-color: #d8dee7;
+    padding: 5px;
+    background-image: url(/img/SIJA-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: 3%;
+    background-position-y: -5px;
+    background-size: 130px;
+}
+
+.kampak {
+    float: right;
+    padding-right: 30px;
+
+}
+
+.heading {
+    text-align: center;
+
+
+}
+
+.backhead {
+    text-align: center;
 
 }
 
 .menu {
-    width: 900px;
+    width: 100%;
     height: 50px;
-    background-color: darkslategray;
+    background-color: #506F86;
+    padding: 5px;
 }
 
-.header ul li {
+.menu ul li {
+    margin-right: 10px;
     display: inline;
     font-weight: bold;
+
+
 
 }
 
 .sidebar {
-    width: 300px;
+    width: 15%;
     height: 500px;
-    background-color: darkturquoise;
+    background-color: #FBB040;
+    padding: 5px;
+    float: left;
 
 }
 
 .konten {
-    width: 600px;
+    width: 83%;
     height: 500px;
-    background-color: darkslategray;
+    background-color: #DE703C;
     overflow: auto;
-
+    float: left;
+    padding: 5px;
 }
 
-
 .footer {
-    width: 900px;
+    width: 100%;
     height: 100px;
-    background-color: steelblue;
+    background-color: #EADEDE;
+    padding: 5px;
+    clear: both;
 }
